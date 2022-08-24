@@ -47,7 +47,7 @@ dependencies {
     implementation(AndroidX.APP_COMPAT)
     implementation(AndroidX.CONSTRAINT_LAYOUT)
 
-    // Material
+    // Google
     implementation(Google.MATERIAL_3)
 
     // Navigation
@@ -70,7 +70,7 @@ dependencies {
     // Utils
     implementation(Utils.TIMBER)
 
-    testImplementation("junit:junit:4.13.2")
-    androidTestImplementation("androidx.test.ext:junit:1.1.3")
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.4.0")
+    testImplementation(Test.JUNIT)
+    androidTestImplementation(Test.ANDROID_JUNIT_EXT)
+    androidTestImplementation(Test.ESPRESSO_CORE)
 }

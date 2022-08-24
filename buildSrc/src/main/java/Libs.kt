@@ -6,14 +6,6 @@ object AndroidX {
     const val CORE = "androidx.core:core-ktx:${Versions.CORE}"
     const val CONSTRAINT_LAYOUT = "androidx.constraintlayout:constraintlayout:${Versions.CONSTRAINT_LAYOUT}"
     const val APP_COMPAT = "androidx.appcompat:appcompat:${Versions.APP_COMPAT}"
-
-    const val MATERIAL = "androidx.compose.material:material:1.0.0-rc02"
-    const val LEGACY = "androidx.legacy:legacy-support-v4:1.0.0"
-    const val LIFECYCLE_VIEW_MODEL = "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1"
-    const val LIFECYCLE_LIVEDATA = "androidx.lifecycle:lifecycle-livedata-ktx:2.3.1"
-    const val ACTIVITY = "androidx.activity:activity-ktx:1.3.1"
-    const val FRAGMENT = "androidx.fragment:fragment-ktx:1.3.6"
-    const val DATASTORE = "androidx.datastore:datastore-preferences:1.0.0"
 }
 
 object DaggerHilt {
@@ -43,4 +35,10 @@ object Google {
 
 object Utils {
     const val TIMBER = "com.jakewharton.timber:timber:${Versions.TIMBER}"
+}
+
+object Test {
+    const val JUNIT = "junit:junit:${Versions.JUNIT}"
+    const val ANDROID_JUNIT_EXT = "androidx.test.ext:junit:${Versions.ANDROID_JUNIT_EXT}"
+    const val ESPRESSO_CORE = "androidx.test.espresso:espresso-core:${Versions.ESPRESSO_CORE}"
 }
