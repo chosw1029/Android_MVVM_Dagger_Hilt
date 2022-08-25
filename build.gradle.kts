@@ -7,7 +7,7 @@ buildscript {
     }
     dependencies {
         classpath("com.android.tools.build:gradle:${Versions.ANDROID_GRADLE_PLUGIN}")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.KOTLIN}")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.10")
         classpath("com.google.dagger:hilt-android-gradle-plugin:${Versions.HILT_AGP}")
         /*
         classpath("com.amplifyframework:amplify-tools-gradle-plugin:${Versions.AMPLIFY}")

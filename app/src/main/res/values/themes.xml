@@ -6,4 +6,9 @@
     </style>
 
     <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+
+    <style name="ThemeOverlay.NextUs.Dark" parent="ThemeOverlay.MaterialComponents.Dark">
+        <item name="colorPrimary">@color/carolina_blue</item>
+        <item name="colorPrimaryVariant">@color/cornflower_blue</item>
+    </style>
 </resources>

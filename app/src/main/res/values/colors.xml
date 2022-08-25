@@ -2,4 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="deep_sky_blue">#1a73e8</color> <!-- colorPrimary in Light mode-->
+    <color name="warm_blue">#574ddd</color> <!-- colorPrimaryVariant in Light mode-->
+    <color name="carolina_blue">#8ab4f8</color> <!-- colorPrimary in Dark mode-->
+    <color name="cornflower_blue">#669DF6</color> <!-- colorPrimaryVariant in Dark mode-->
+
 </resources>
