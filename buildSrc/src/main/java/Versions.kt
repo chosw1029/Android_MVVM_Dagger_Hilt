@@ -18,6 +18,7 @@ object Versions {
 
     // Google
     const val MATERIAL_3 = "1.5.0-alpha04"
+    const val GSON = "2.9.1"
 
     // Navigation
     const val NAVIGATION = "2.5.1"

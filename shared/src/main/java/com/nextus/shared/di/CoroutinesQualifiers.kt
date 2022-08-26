@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.nextus.mvvm.di
+package com.nextus.shared.di
 
 import javax.inject.Qualifier
 

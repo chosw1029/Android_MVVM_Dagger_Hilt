@@ -41,6 +41,8 @@ class MainActivity : AppCompatActivity() {
                 .setAnchorView(R.id.fab)
                 .setAction("Action", null).show()
         }
+
+        mainViewModel.test()
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

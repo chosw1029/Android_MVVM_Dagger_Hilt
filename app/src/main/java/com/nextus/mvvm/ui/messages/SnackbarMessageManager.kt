@@ -18,7 +18,7 @@ package com.nextus.mvvm.ui.messages
 
 import androidx.annotation.VisibleForTesting
 import com.nextus.mvvm.ui.messages.SnackbarMessageManager.Companion.MAX_ITEMS
-import com.nextus.mvvm.di.ApplicationScope
+import com.nextus.shared.di.ApplicationScope
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

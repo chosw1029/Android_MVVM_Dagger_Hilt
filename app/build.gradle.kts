@@ -41,6 +41,7 @@ android {
 }
 
 dependencies {
+    api(project(":shared"))
 
     // AndroidX
     implementation(AndroidX.CORE)
@@ -57,15 +58,6 @@ dependencies {
     // Dagger Hilt
     implementation(DaggerHilt.DAGGER_HILT)
     kapt(DaggerHilt.COMPILER)
-
-    // Retrofit
-    implementation(Retrofit.CORE)
-    implementation(Retrofit.GSON_CONVERTER)
-    implementation(Retrofit.RXJAVA_ADAPTER)
-
-    // OKHTTP
-    implementation(OkHttp.CORE)
-    implementation(OkHttp.LOGGING_INTERCEPTOR)
 
     // Utils
     implementation(Utils.TIMBER)

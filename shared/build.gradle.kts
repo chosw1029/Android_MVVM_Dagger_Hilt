@@ -1,6 +1,8 @@
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
+    id("kotlin-kapt")
+    id("dagger.hilt.android.plugin")
 }
 
 android {
@@ -36,6 +38,22 @@ dependencies {
     api(project(":model"))
 
     implementation(AndroidX.APP_COMPAT)
+
+    // Retrofit
+    implementation(Retrofit.CORE)
+    implementation(Retrofit.GSON_CONVERTER)
+    implementation(Retrofit.RXJAVA_ADAPTER)
+
+    // OKHTTP
+    implementation(OkHttp.CORE)
+    implementation(OkHttp.LOGGING_INTERCEPTOR)
+
+    // Dagger Hilt
+    implementation(DaggerHilt.DAGGER_HILT)
+    kapt(DaggerHilt.COMPILER)
+
+    // Google
+    implementation(Google.GSON)
 
     // Utils
     implementation(Utils.TIMBER)

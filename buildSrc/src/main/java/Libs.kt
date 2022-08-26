@@ -31,6 +31,7 @@ object OkHttp {
 
 object Google {
     const val MATERIAL_3 = "com.google.android.material:material:${Versions.MATERIAL_3}"
+    const val GSON = "com.google.code.gson:gson:${Versions.GSON}"
 }
 
 object Utils {
