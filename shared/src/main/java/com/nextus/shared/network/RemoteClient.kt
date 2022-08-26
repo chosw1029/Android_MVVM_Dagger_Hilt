@@ -12,7 +12,7 @@ object RemoteClient {
     private const val baseUrl = "https://dapi.kakao.com/v2/search/"
 
     // TODO: kakao Application 의 REST API Key 입력
-    private const val kakaoToken = ""
+    private const val kakaoToken = BuildConfig.API_KEY
 
     fun createRetrofit(): Retrofit {
         return Retrofit.Builder()
